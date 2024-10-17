@@ -1,3 +1,10 @@
+import Navbar from "@/components/Navbar";
+
 export default function Home() {
-  return <h1 className="text-9xl font-bold">Hello World</h1>;
+  return (
+    <>
+      <Navbar />
+
+    </>
+  );
 }
